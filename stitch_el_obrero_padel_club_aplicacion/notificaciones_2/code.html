@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Newsreader%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #38e07b;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-950 text-white" style='font-family: "Noto Sans", sans-serif;'>
+<div class="relative flex h-auto min-h-screen w-full flex-col justify-between overflow-x-hidden">
+<div class="flex-grow">
+<header class="sticky top-0 z-10 flex items-center justify-between bg-gray-950/80 p-4 backdrop-blur-sm">
+<button class="flex size-10 items-center justify-center rounded-full transition-colors hover:bg-gray-800">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h1 class="text-xl font-bold">Notificaciones</h1>
+<div class="size-10"></div>
+</header>
+<main class="p-4">
+<div class="space-y-2">
+<div class="group flex cursor-pointer items-start gap-4 rounded-lg bg-gray-900 p-4 transition-all hover:bg-gray-800">
+<div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-green-900/50 text-[var(--primary-color)]">
+<span class="material-symbols-outlined text-3xl">check_circle</span>
+</div>
+<div class="flex-grow">
+<div class="flex items-start justify-between">
+<p class="font-semibold" style="font-family: 'Newsreader', serif;">Reserva Confirmada</p>
+<span class="text-xs text-gray-500">hace 5m</span>
+</div>
+<p class="text-sm text-gray-400">Tu reserva para el 15 de julio a las 18:00 ha sido confirmada.</p>
+</div>
+<div class="flex flex-col items-center gap-2 opacity-0 transition-opacity group-hover:opacity-100">
+<button class="text-gray-500 hover:text-white"><span class="material-symbols-outlined text-base">drafts</span></button>
+<button class="text-gray-500 hover:text-red-500"><span class="material-symbols-outlined text-base">delete</span></button>
+</div>
+</div>
+<div class="group flex cursor-pointer items-start gap-4 rounded-lg bg-gray-900 p-4 transition-all hover:bg-gray-800">
+<div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-blue-900/50 text-blue-400">
+<span class="material-symbols-outlined text-3xl">receipt_long</span>
+</div>
+<div class="flex-grow">
+<div class="flex items-start justify-between">
+<p class="font-semibold" style="font-family: 'Newsreader', serif;">Pago Recibido</p>
+<span class="text-xs text-gray-500">hace 1h</span>
+</div>
+<p class="text-sm text-gray-400">El pago de tu reserva ha sido procesado correctamente.</p>
+</div>
+<div class="flex flex-col items-center gap-2 opacity-0 transition-opacity group-hover:opacity-100">
+<button class="text-gray-500 hover:text-white"><span class="material-symbols-outlined text-base">drafts</span></button>
+<button class="text-gray-500 hover:text-red-500"><span class="material-symbols-outlined text-base">delete</span></button>
+</div>
+</div>
+<div class="group flex cursor-pointer items-start gap-4 rounded-lg bg-gray-900 p-4 transition-all hover:bg-gray-800">
+<div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-purple-900/50 text-purple-400">
+<span class="material-symbols-outlined text-3xl">redeem</span>
+</div>
+<div class="flex-grow">
+<div class="flex items-start justify-between">
+<p class="font-semibold" style="font-family: 'Newsreader', serif;">Promoción Especial</p>
+<span class="text-xs text-gray-500">hace 3h</span>
+</div>
+<p class="text-sm text-gray-400">¡Nueva promoción! 20% de descuento en reservas de lunes a viernes.</p>
+</div>
+<div class="flex flex-col items-center gap-2 opacity-0 transition-opacity group-hover:opacity-100">
+<button class="text-gray-500 hover:text-white"><span class="material-symbols-outlined text-base">drafts</span></button>
+<button class="text-gray-500 hover:text-red-500"><span class="material-symbols-outlined text-base">delete</span></button>
+</div>
+</div>
+<div class="group flex cursor-pointer items-start gap-4 rounded-lg bg-gray-900 p-4 transition-all hover:bg-gray-800">
+<div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-yellow-900/50 text-yellow-400">
+<span class="material-symbols-outlined text-3xl">notifications</span>
+</div>
+<div class="flex-grow">
+<div class="flex items-start justify-between">
+<p class="font-semibold" style="font-family: 'Newsreader', serif;">Nuevas Bebidas</p>
+<span class="text-xs text-gray-500">ayer</span>
+</div>
+<p class="text-sm text-gray-400">Hemos añadido nuevas bebidas a nuestro catálogo. ¡Descúbrelas!</p>
+</div>
+<div class="flex flex-col items-center gap-2 opacity-0 transition-opacity group-hover:opacity-100">
+<button class="text-gray-500 hover:text-white"><span class="material-symbols-outlined text-base">drafts</span></button>
+<button class="text-gray-500 hover:text-red-500"><span class="material-symbols-outlined text-base">delete</span></button>
+</div>
+</div>
+</div>
+</main>
+</div>
+<footer class="sticky bottom-0 border-t border-gray-800 bg-gray-950/80 pb-3 pt-2 backdrop-blur-sm">
+<nav class="flex justify-around">
+<a class="flex flex-col items-center gap-1 text-gray-400 transition-colors hover:text-[var(--primary-color)]" href="#">
+<span class="material-symbols-outlined">calendar_month</span>
+<p class="text-xs font-medium">Reservar</p>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-400 transition-colors hover:text-[var(--primary-color)]" href="#">
+<span class="material-symbols-outlined">wine_bar</span>
+<p class="text-xs font-medium">Bebidas</p>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-400 transition-colors hover:text-[var(--primary-color)]" href="#">
+<span class="material-symbols-outlined">bookmark</span>
+<p class="text-xs font-medium">Mis Reservas</p>
+</a>
+<a class="flex flex-col items-center gap-1 text-[var(--primary-color)]" href="#">
+<span class="material-symbols-outlined">person</span>
+<p class="text-xs font-medium">Perfil</p>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>

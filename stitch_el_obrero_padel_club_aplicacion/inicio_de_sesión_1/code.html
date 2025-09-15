@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-500: #38e07b;
+        --neutral-900: #111714;
+        --neutral-800: #29382f;
+        --neutral-400: #9eb7a8;
+        --neutral-50: #ffffff;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[var(--neutral-900)]">
+<div class="relative flex h-auto min-h-screen w-full flex-col justify-between group/design-root" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+<div class="flex flex-col">
+<header class="flex items-center p-4">
+<button class="flex items-center justify-center text-white p-2">
+<span class="material-symbols-outlined"> arrow_back_ios </span>
+</button>
+<h1 class="text-white text-xl font-bold flex-1 text-center pr-10">Iniciar sesión</h1>
+</header>
+<main class="flex-1 px-6 py-8">
+<form class="flex flex-col gap-6">
+<div class="flex flex-col gap-2">
+<label class="text-white text-base font-medium" for="email">Correo electrónico</label>
+<input class="form-input w-full rounded-xl border-none bg-[var(--neutral-800)] px-4 py-4 text-white placeholder:text-[var(--neutral-400)] focus:ring-2 focus:ring-[var(--primary-500)]" id="email" placeholder="Ingresa tu correo electrónico" type="email"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-white text-base font-medium" for="password">Contraseña</label>
+<div class="relative">
+<input class="form-input w-full rounded-xl border-none bg-[var(--neutral-800)] px-4 py-4 pr-12 text-white placeholder:text-[var(--neutral-400)] focus:ring-2 focus:ring-[var(--primary-500)]" id="password" placeholder="Ingresa tu contraseña" type="password"/>
+<button class="absolute inset-y-0 right-0 flex items-center pr-4 text-[var(--neutral-400)]" type="button">
+<span class="material-symbols-outlined"> visibility_off </span>
+</button>
+</div>
+</div>
+<a class="text-right text-sm font-medium text-[var(--primary-500)] hover:underline" href="#">¿Olvidaste tu contraseña?</a>
+<button class="flex w-full cursor-pointer items-center justify-center rounded-xl bg-[var(--primary-500)] px-5 py-4 text-base font-bold text-[var(--neutral-900)] transition-colors hover:bg-green-400 mt-4" type="submit">
+<span class="truncate">Iniciar sesión</span>
+</button>
+</form>
+</main>
+</div>
+<footer class="px-6 py-6 text-center">
+<p class="text-sm">
+<span class="text-[var(--neutral-400)]">¿No tienes una cuenta?</span>
+<a class="font-bold text-[var(--primary-500)] hover:underline" href="#"> Regístrate</a>
+</p>
+</footer>
+</div>
+
+</body></html>

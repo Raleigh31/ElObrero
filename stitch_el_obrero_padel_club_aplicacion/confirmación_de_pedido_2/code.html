@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="preload"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #38e07b;
+      }
+      body {
+        font-family: "Space Grotesk", "Noto Sans", sans-serif;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[#111714]">
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-[#111714] text-white dark group/design-root overflow-x-hidden">
+<header class="flex items-center p-4 pb-2 justify-between sticky top-0 bg-[#111714] z-10">
+<button class="flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h1 class="text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-10">Resumen del pedido</h1>
+</header>
+<main class="flex-1 px-4 py-6 space-y-8">
+<div class="text-center space-y-4">
+<div class="inline-flex items-center justify-center bg-primary-color/10 rounded-full size-20">
+<span class="material-symbols-outlined text-4xl text-primary-color">check_circle</span>
+</div>
+<h2 class="text-3xl font-bold tracking-tighter">¡Reserva Confirmada!</h2>
+<p class="text-[#9eb7a8]">Tu pago ha sido procesado con éxito.</p>
+</div>
+<div class="bg-[#1c2620] rounded-xl p-6 flex flex-col items-center">
+<img alt="Código QR de la reserva" class="rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHqK0YUDcejZ8lPMHZn1VCBtSfcuxrXDrwcxA_Inu5KY0HpIM3VAwP26-WgTD3DKqoh4_RhaM1CFhuL5JEhqFFlM0kU-rRfnQzTGuasXOsYx_qVhdeJ02sjWLrV5rHCBXDzRDfhkjCCZuWwnBNf_UqHfsWqp3-11MjGZgvlFkeFlTBx7UCwetINX7z9wm96m716mCe_xoGdIELAc5KwUBVv7IsTK2-CWuLwCe8JWg6vP8csviDsD7lGlHYJDN4yZ2smrRO9pz1dK7c"/>
+<p class="text-sm text-[#9eb7a8]">Código de confirmación</p>
+<p class="text-lg font-bold tracking-widest">A4B2-C8D6</p>
+</div>
+<div class="space-y-6">
+<div>
+<h3 class="text-[22px] font-bold leading-tight tracking-[-0.015em] pb-3">Detalles de la reserva</h3>
+<div class="space-y-2">
+<div class="flex items-center gap-4 bg-[#1c2620] p-4 rounded-lg">
+<div class="text-primary-color flex items-center justify-center rounded-lg bg-primary-color/10 shrink-0 size-12">
+<span class="material-symbols-outlined">sports_tennis</span>
+</div>
+<div>
+<p class="text-base font-medium leading-normal">Pista de Pádel</p>
+<p class="text-[#9eb7a8] text-sm font-normal leading-normal">Cancha 2</p>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-[#1c2620] p-4 rounded-lg">
+<div class="text-primary-color flex items-center justify-center rounded-lg bg-primary-color/10 shrink-0 size-12">
+<span class="material-symbols-outlined">calendar_month</span>
+</div>
+<div>
+<p class="text-base font-medium leading-normal">Fecha y hora</p>
+<p class="text-[#9eb7a8] text-sm font-normal leading-normal">Sábado, 15 de junio, 10:00 - 11:00</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h3 class="text-[22px] font-bold leading-tight tracking-[-0.015em] pb-3">Pedido de bebidas</h3>
+<div class="space-y-2">
+<div class="flex items-center gap-4 bg-[#1c2620] p-4 rounded-lg">
+<img alt="Agua mineral" class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtYCvvXj2Wwb6D6oWEk6d1fKzBBQp1F35_tIqERmWvuNYqm18dm0FewLJFpTnMIB3fl-aE_0EeH-zkF58mEMMN7NalCAicTEtwsWRCdFes-dZ39NdY4ZPmf3VYjlP8DUfTicKvSucZta-Df4NIbhkJ1hOvq1Th-QuR_E9Tly3wZQTX6TdGP5E1BL7Q6FeQsTt9JxrWpnptTtivOvuKVDZyxDxRFIegTQFQMJcLCTaC99GbZjh07xMzj_Ep-GTNq4nVBMeFVA67_B54"/>
+<div class="flex-1">
+<p class="text-base font-medium leading-normal">Agua mineral</p>
+<p class="text-[#9eb7a8] text-sm font-normal leading-normal">2 unidades</p>
+</div>
+<p class="text-base font-medium">2,00 €</p>
+</div>
+<div class="flex items-center gap-4 bg-[#1c2620] p-4 rounded-lg">
+<img alt="Refresco de cola" class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbIL1C8I9SaWVxKDUBzEpjcph0isComGyS6QxwuSv4w2ALold4E_phql_mOjNiFLScNL1rS_YsewbCrD0New8RVfj6i1vVj6Jek3dOKOvjbugQQPFWk5eEWMfFBQdzc8v60KUQH-GHLJKf9rq-f5Ac64hQcgCikq6pNMLgJ1Jg-dNfD85ChYVEhlgWb77Xg1F3apNUXdUTNcCBqNw2Gb3gLTv9fxl-yUwpQLQHp0OtS0HH2ZEresoVzg9UKelwL9rkbjVVAwDmYBSs"/>
+<div class="flex-1">
+<p class="text-base font-medium leading-normal">Refresco de cola</p>
+<p class="text-[#9eb7a8] text-sm font-normal leading-normal">1 unidad</p>
+</div>
+<p class="text-base font-medium">1,50 €</p>
+</div>
+<div class="flex items-center gap-4 bg-[#1c2620] p-4 rounded-lg">
+<img alt="Bebida isotónica" class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCj8X1c_bevJz--Yy--8m93dGXRI5KfllUmfBhpdAeaaIRE3F8FjASVg60YbmlNWy3vf8cuFP-pk8Syo_6E2U07WYDw_TbwwTokOHRC18bZVtgl6JBXNp8g51zXd3oTlQSCXNf0PwjAsQBpXEBJ_rl1Wz8Wk8PqOYYSwF_h4o-5QT4UdclXg7PVE9JLDsUbCSSrztJLYnSEBsHQZV50JYXFBB3WSjhSUUJAjk8E1OflaXpY5_QTETkSbrT_aTEpQBPCXYbkzx7eTNyj"/>
+<div class="flex-1">
+<p class="text-base font-medium leading-normal">Bebida isotónica</p>
+<p class="text-[#9eb7a8] text-sm font-normal leading-normal">1 unidad</p>
+</div>
+<p class="text-base font-medium">1,50 €</p>
+</div>
+</div>
+</div>
+<div>
+<h3 class="text-[22px] font-bold leading-tight tracking-[-0.015em] pb-3">Resumen del pago</h3>
+<div class="bg-[#1c2620] p-4 rounded-lg space-y-3">
+<div class="flex justify-between items-center text-sm">
+<p class="text-[#9eb7a8]">Reserva de pista</p>
+<p>10,00 €</p>
+</div>
+<div class="flex justify-between items-center text-sm">
+<p class="text-[#9eb7a8]">Bebidas</p>
+<p>5,00 €</p>
+</div>
+<div class="border-t border-[#29382f] my-3"></div>
+<div class="flex justify-between items-center font-bold text-lg">
+<p>Total</p>
+<p>15,00 €</p>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<span class="material-symbols-outlined text-lg text-[#9eb7a8]">credit_card</span>
+<p class="text-[#9eb7a8] text-sm">Pagado con Tarjeta de crédito</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="sticky bottom-0 bg-[#111714] z-10">
+<div class="px-4 py-3">
+<button class="flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary-color text-[#111714] text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary-color/90 transition-colors">
+<span class="truncate">Ver mis reservas</span>
+</button>
+</div>
+<div class="flex justify-around border-t border-[#29382f] bg-[#1c2620] px-4 pb-3 pt-2">
+<a class="flex flex-col items-center justify-end gap-1 text-[#9eb7a8] w-1/4" href="#">
+<span class="material-symbols-outlined">calendar_month</span>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Reservar</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-[#9eb7a8] w-1/4" href="#">
+<span class="material-symbols-outlined">sports_bar</span>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Bebidas</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-white w-1/4" href="#">
+<span class="material-symbols-outlined">receipt_long</span>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Mis Reservas</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-[#9eb7a8] w-1/4" href="#">
+<span class="material-symbols-outlined">person</span>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Perfil</p>
+</a>
+</div>
+</footer>
+</div>
+
+</body></html>

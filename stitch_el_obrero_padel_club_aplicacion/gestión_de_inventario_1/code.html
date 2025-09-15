@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&amp;family=Space+Grotesk:wght@400;500;700&amp;display=swap" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+    body {
+      min-height: max(884px, 100dvh);
+      background-color: #1a1a1a;
+      color: #ffffff;
+    }
+    .dark .bg-white {
+      background-color: #1a1a1a;
+    }
+    .dark .text-black {
+      color: #ffffff;
+    }
+    .dark .border-gray-200 {
+      border-color: #333333;
+    }
+    .dark .bg-gray-50 {
+      background-color: #2a2a2a;
+    }
+    .dark .text-gray-500 {
+      color: #a0a0a0;
+    }
+    .dark .text-gray-900 {
+      color: #ffffff;
+    }
+    .dark .text-gray-600 {
+      color: #b0b0b0;
+    }
+    .dark .hover\:bg-gray-100:hover {
+        background-color: #3a3a3a;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="dark" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-[#1a1a1a] justify-between group/design-root">
+<div class="flex flex-col gap-4 p-4">
+<div class="flex items-center justify-between">
+<button class="text-white">
+<span class="material-symbols-outlined">
+            arrow_back_ios_new
+          </span>
+</button>
+<h1 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Inventario de Bebidas</h1>
+<div class="w-8"></div>
+</div>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">search</span>
+<input class="w-full bg-[#2a2a2a] text-white placeholder-gray-400 rounded-lg pl-10 pr-4 py-2 border border-gray-700 focus:ring-2 focus:ring-[#00bfa5]" placeholder="Buscar bebida" type="text"/>
+</div>
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-4 bg-[#2a2a2a] p-3 rounded-lg">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-md size-16" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAc_QLodGPFJgdctunisTcb3vtumkJFG64Y42U2Da69UvN4ycI9NMhRKgrfjIVcyGw2dQqwZgF2I-9IyHutkkcA2wuwqDOQQ6FfkHtOdHpWaEt3Re0iEBusMvePDZ_eWnvCh0vIvmt3I2iLuFMMC3N2hsDYyWQ8Lft6RcT4erb5DIrrPSY6-v_raN6NJ-w47ZvFF1UXvbDQOo_cdJXzD1_UJzaE_79Dk5PzXTy9ussaCZA6ZBZxFsJFAJJHaH4Wtfk12lYF7RKiiteV");'></div>
+<div class="flex-1">
+<p class="text-white text-base font-medium leading-normal">Agua Mineral</p>
+<p class="text-gray-400 text-sm font-normal leading-normal">Stock: 50</p>
+</div>
+<div class="flex items-center gap-2">
+<button class="text-gray-300 p-2 rounded-full hover:bg-gray-700">
+<span class="material-symbols-outlined">edit</span>
+</button>
+<button class="text-red-500 p-2 rounded-full hover:bg-gray-700">
+<span class="material-symbols-outlined">delete</span>
+</button>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-[#2a2a2a] p-3 rounded-lg">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-md size-16" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBRYQtHe7bgs3bOT-y-8zWAJarQ6MPXcVf2FaVpPzIQtPLBKlJwosMccgAXtlzfsBp-FaNqmf2b0kgU_sKcZ8GXFQq8-kJZYxP8kyl4KIx4Y2NeH5BQwVxXFeNG7HoYdWTvIgT5tgkiS_GMxgqBAQYwm9HySgIYOoiPyM_z6tHn1uwxtSvuh_El2AqrCThCaJ-jmwBQpGRV8YUGGeG45EjHVF-vv7GB_e_xuIMQkj2-AbVVutYu7qW4gbuEpJ31t67VHe7v3zBKCpEY");'></div>
+<div class="flex-1">
+<p class="text-white text-base font-medium leading-normal">Refresco de Cola</p>
+<p class="text-gray-400 text-sm font-normal leading-normal">Stock: 30</p>
+</div>
+<div class="flex items-center gap-2">
+<button class="text-gray-300 p-2 rounded-full hover:bg-gray-700">
+<span class="material-symbols-outlined">edit</span>
+</button>
+<button class="text-red-500 p-2 rounded-full hover:bg-gray-700">
+<span class="material-symbols-outlined">delete</span>
+</button>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-[#2a2a2a] p-3 rounded-lg">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-md size-16" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDbS0Kw-HCaup3aZFQBn_794qgEKmklFOKljjO1oEaf7DU37NSuBpwkjK2SyCDlpJXZHDVDcNRL4ujektKcNvRFjArykJ5Ht9_ZtENlZ3snNioaZBLYis0Gm5Aae2fTDpnlBk68mTAdDE_uVyjIl8XeioN-U1W3EjakpzQQ0QoiJiH5Ll_nySy3EgHezhB0VpE-QhCtbeDLpwrkQDqKJpHTLL3tcCZSoEuzqbE35Kh1S4G4r6dUbfwGSgnnuHDgB4MBLSjmNX7a8xKp");'></div>
+<div class="flex-1">
+<p class="text-white text-base font-medium leading-normal">Bebida Energética</p>
+<p class="text-gray-400 text-sm font-normal leading-normal">Stock: 20</p>
+</div>
+<div class="flex items-center gap-2">
+<button class="text-gray-300 p-2 rounded-full hover:bg-gray-700">
+<span class="material-symbols-outlined">edit</span>
+</button>
+<button class="text-red-500 p-2 rounded-full hover:bg-gray-700">
+<span class="material-symbols-outlined">delete</span>
+</button>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-[#2a2a2a] p-3 rounded-lg">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-md size-16" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB9lmuXP-9Y2ORT75EVho3xyr5WuQlcwy4MIOu4uvw69lgLKY_zmaA6_U5iyHeXjJ87XLkx52NdxJr7Eeqi2RJXQ5ImRvjD-0z47TqLVPaAFV-jVofJJejC9pV1bQmaFHCpHb-01El9dpyLRBIn0P6MKqYzljjSVsFmgTItUcYvHVTe8nCSOg-h50_aTN2bhvnKImpGnfvRfbw9VBPdiU5FLXNTfuzW6en4nx7Fn-J86MzcTBAiSSY56UXGQpI_CADd7Tq41S1Sq0HH");'></div>
+<div class="flex-1">
+<p class="text-white text-base font-medium leading-normal">Cerveza sin Alcohol</p>
+<p class="text-gray-400 text-sm font-normal leading-normal">Stock: 40</p>
+</div>
+<div class="flex items-center gap-2">
+<button class="text-gray-300 p-2 rounded-full hover:bg-gray-700">
+<span class="material-symbols-outlined">edit</span>
+</button>
+<button class="text-red-500 p-2 rounded-full hover:bg-gray-700">
+<span class="material-symbols-outlined">delete</span>
+</button>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-[#2a2a2a] p-3 rounded-lg">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-md size-16" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBRZ-uc4SvuHBvG3boDPeXpZJ3yGTyB8opB-4k3Tn-YRKKaL2ZTzBvyvtxOEMtg4XCaZh6WzD6QlwnB4X7AtVFVdP3dMZ9lkelbohEVFofxpfo4FKfVYRT5YsfFG88dMGiHFKGetFBAOGfQQAAwE7F218NgMkoCikHZEBY8CgTNRbeb06N04PXIZMyxU9MBMddcokAn4ho43WmSslXVBhdOpj1HzS0X-F1YnDqxC5L8b1A-gB4YoRcHrNs7fTT_zEaGELsPX2aa87C0");'></div>
+<div class="flex-1">
+<p class="text-white text-base font-medium leading-normal">Zumo de Naranja</p>
+<p class="text-gray-400 text-sm font-normal leading-normal">Stock: 15</p>
+</div>
+<div class="flex items-center gap-2">
+<button class="text-gray-300 p-2 rounded-full hover:bg-gray-700">
+<span class="material-symbols-outlined">edit</span>
+</button>
+<button class="text-red-500 p-2 rounded-full hover:bg-gray-700">
+<span class="material-symbols-outlined">delete</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="sticky bottom-0 p-4 bg-gradient-to-t from-[#1a1a1a] to-transparent">
+<button class="w-full flex items-center justify-center gap-2 rounded-lg h-14 bg-[#00bfa5] text-black text-base font-bold">
+<span class="material-symbols-outlined">add</span>
+        Añadir Bebida
+      </button>
+</div>
+</div>
+
+</body></html>
